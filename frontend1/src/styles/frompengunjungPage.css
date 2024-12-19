@@ -1,0 +1,36 @@
+.custom-peng-container {
+  max-width: 530px; /* Atur lebar maksimal form */
+  margin: 0 auto;   /* Tengah secara horizontal */
+  padding: 20px;
+  background-color: #f9f9f9;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  border: none !important;
+  border-bottom: 2px solid #000 !important;
+  outline: none;
+  padding: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  transition: border-bottom-color 0.3s;
+}
+
+.form-control:focus {
+  border-bottom: 2px solid black;
+}
+
+.text-left {
+  display: flex;
+}
+

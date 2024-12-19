@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  height: calc(100vh - 67px); /* Sesuaikan 56px dengan tinggi NavbarLogout */
+}
+
+.content {
+  flex: 1;
+  /* border: 1px solid  black; */
+}

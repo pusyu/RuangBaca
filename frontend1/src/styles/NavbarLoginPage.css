@@ -1,0 +1,16 @@
+/* NavbarLoginPage.css */
+.navbar-custom {
+  border-bottom: 1px solid black; /* Adjust the thickness and color of the border */
+}
+
+.logo {
+  width: 50px; /* Logo size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 576px) {
+  .navbar-custom {
+    display: none !important; /* Memastikan navbar tidak ditampilkan */
+  }
+}
+

@@ -1,0 +1,79 @@
+.content_anggota {
+  padding: 20px;
+  margin-top: -20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table .btn-warning {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+}
+
+.table .btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.mytable {
+  max-width: 95%;
+  height: auto;
+  max-height: 450px;
+  overflow-y: auto; /* Tambahkan overflow agar data lebih nyaman digulir */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-number {
+  margin: 0 10px;
+  align-self: center;
+  font-size: 1rem;
+}
+
+.btn-secondary {
+  padding: 8px 16px;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+.btn-secondary:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

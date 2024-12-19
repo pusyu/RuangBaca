@@ -1,0 +1,28 @@
+.custom-form-container {
+  max-width: 330px; /* Atur lebar maksimal form */
+  margin: 0 auto;   /* Tengah secara horizontal */
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.form-check-input {
+  width: 20px; /* adjust size */
+  height: 20px; /* adjust size */
+  border-radius: 50%; /* makes them circular */
+  border: 2px solid black; /* default border color */
+  appearance: none; /* remove default styling */
+  background-color: transparent; /* transparent background */
+  cursor: pointer; /* pointer cursor for better UX */
+}
+
+.form-check-input:checked {
+  background-color: black; /* background color when checked */
+  border: 2px solid black; /* border color when checked */
+}
+
+.form-check-input:checked + .form-check-label {
+  color: black; /* change label color when checked, optional */
+}

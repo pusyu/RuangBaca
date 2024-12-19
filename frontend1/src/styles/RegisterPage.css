@@ -1,0 +1,22 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.by-conatiner {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.by-session1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.by-col {
+  background-color: #16c4c4;
+}

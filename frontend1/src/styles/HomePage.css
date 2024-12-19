@@ -1,0 +1,57 @@
+.bg-my {
+  height: 100vh; /* Tinggi selalu 100% dari viewport */
+  display: flex;
+  flex-direction: column; /* Agar konten dalam .bg-my tetap terorganisir */
+}
+
+.my-container {
+  flex: 1; /* Memastikan bagian ini mengambil sisa tinggi yang tersedia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Mengikuti tinggi penuh dari .bg-my */
+}
+
+.my-col-6 {
+  height: 100%; /* Kolom juga mengikuti tinggi penuh */
+  display: flex;
+}
+
+.my-left-content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Sesuaikan dengan tinggi kolom */
+  width: 100%;
+}
+
+.my-right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .bg-my {
+    height: 100vh; /* Tetap mempertahankan tinggi 100vh pada mobile */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: none; /* Sembunyikan navbar pada mobile */
+  }
+
+  .my-left-content {
+    width: 100%; /* Kolom kiri mengambil lebar penuh */
+  }
+
+  .my-right {
+    display: none; /* Kolom kanan disembunyikan */
+  }
+}

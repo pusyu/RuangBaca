@@ -1,0 +1,39 @@
+/* DataKunjungan.css */
+
+/* Membatasi tinggi tabel agar tidak meluber */
+.table-container {
+  max-height: calc(100vh - 200px); /* Sesuaikan dengan tinggi navbar dan sidebar */
+  overflow-y: auto;  /* Scroll pada tabel jika data terlalu panjang */
+  padding: 10px;
+}
+
+/* Menjaga tampilan tabel tetap bagus */
+table {
+  width: 100%;
+  table-layout: fixed; /* Agar kolom bisa diatur lebar secara tetap */
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+/* Membuat header tabel tetap berada di atas saat digulir */
+thead th {
+  position: sticky;
+  top: 0; /* Memastikan header tetap di bagian atas */
+  background-color: #f8f9fa;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur lebar kolom No lebih kecil */
+th:nth-child(1), td:nth-child(1) {
+  width: 50px; /* Sesuaikan lebar kolom No */
+}
+
+/* Atur tampilan header */
+th {
+  background-color: #343a40;
+  color: white;
+}
